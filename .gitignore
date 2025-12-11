@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+*.Rproj
+
+# Ignorar dados sensíveis
+data/raw/bancocomvidafull.csv
+data/raw/2974.xls
+
+# Manter apenas dados sintéticos (que criaremos no passo 3)
+!data/raw/bancocomvidafull_SINTETICO.csv
